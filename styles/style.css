@@ -1,0 +1,59 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: #b19b4b;
+    color: rgba(236, 221, 182, 0.897);
+    padding: 30px;
+}
+
+.cofres{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    flex-wrap: nowrap;
+    position: relative;
+    height: 290px;
+    border: 2px dashed #906606f8;
+    border-radius: 15px;
+}
+
+button{
+    position: absolute;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#cofre1{
+    top: 40%;
+    left: 17%;
+    background: #cfa713;
+}
+
+#cofre2{
+    top: 40%;
+    left: 46%;
+    background: #cfa713;
+}
+
+#cofre3{
+    top: 40%;
+    left: 77%;
+    background: #cfa713;
+}
+
+#Reiniciar{
+    top: 86%;
+    left: 4.2%;
+    padding: 15px 15px;
+    background: #d9d44d;
+}
+#Reiniciar:hover{
+    background: #bdb633;
+}
+
+
+
